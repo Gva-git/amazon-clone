@@ -1,6 +1,6 @@
 import React from "react"
 import "./Home.css";
-import Bg from "./4000603.jpg";
+import Bg from "./bg.jpg";
 import Product from "../Product-Components/Product";
 
 function Home() {
@@ -11,14 +11,17 @@ function Home() {
 
         <div className="home_row">
           <Product />
+          <Product />
         </div>
 
         <div className="home_row">
-
+          <Product />
+          <Product />
+          <Product />
         </div>
 
         <div className="home_row">
-
+          <Product />
         </div>
       </div>
     </div>
